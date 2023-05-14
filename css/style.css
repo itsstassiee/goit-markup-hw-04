@@ -403,6 +403,7 @@ img {
 
 .items-customers {
     fill: var(--light_slate);
+    fill: currentColor;
 }
 
 
