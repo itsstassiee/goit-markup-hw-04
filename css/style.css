@@ -366,6 +366,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--text-btn);
 
 }
 
@@ -375,6 +376,9 @@ img {
     background-color: #404bbf;
 }
 
+.card-section {
+    padding: 32px 0;
+}
 
 .card {
     background-color: var(--white);
@@ -383,14 +387,20 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
-.card-section {
+/* .card-section {
     padding: 32px 16px;
-}
+} */
 
 .link-social-items {
     width: 16px;
     height: 16px;
+    fill: currentColor;
+    fill: #f4f4fd;
 }
+
+
+
+
 
 
 /* =========== SECTION FIVE =========== */
