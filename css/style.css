@@ -402,7 +402,7 @@ img {
 }
 
 .items-customers {
-    fill: var(--light_slate);
+    /* fill: var(--light_slate); */
     fill: currentColor;
 }
 
