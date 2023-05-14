@@ -372,7 +372,7 @@ img {
 
 
 .link-social:hover,
-:focus {
+.link-social:focus {
     background-color: #404bbf;
 }
 
@@ -392,10 +392,8 @@ img {
 } */
 
 .link-social-items {
-    width: 16px;
-    height: 16px;
-    fill: currentColor;
-    fill: #f4f4fd;
+    /* fill: currentColor; */
+    fill: #2e2f42;
 }
 
 
@@ -428,9 +426,9 @@ img {
 }
 
 .link-customers:hover,
-:focus {
+.link-customers:focus {
     border-color: var(--btn);
-    color: var(--btn);
+    /* color: var(--btn); */
 }
 
 .customers-li {
