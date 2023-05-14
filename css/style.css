@@ -99,7 +99,7 @@ img {
 
 .page-header {
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     text-transform: capitalize;
     text-align: center;
     letter-spacing: 0.02em;
@@ -393,7 +393,7 @@ img {
 
 .link-social-items {
     /* fill: currentColor; */
-    fill: #2e2f42;
+    /* fill: #2e2f42; */
 }
 
 
@@ -402,16 +402,13 @@ img {
 
 
 /* =========== SECTION FIVE =========== */
-.Customers {
+.customers {
     padding: 120px 0;
 }
 
 .items-customers {
-    width: 104px;
-    height: 56px;
-    fill: currentColor;
+    fill: var(--light_slate);
 }
-
 
 
 .link-customers {
@@ -422,13 +419,18 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #404bbf;
+    color: var(--light_slate);
 }
 
 .link-customers:hover,
 .link-customers:focus {
     border-color: var(--btn);
-    /* color: var(--btn); */
+    fill: var(--btn);
+}
+
+.items-customers:hover,
+.items-customers:focus {
+    fill: var(--btn);
 }
 
 .customers-li {
@@ -504,8 +506,7 @@ img {
 }
 
 .footer-svg {
-    width: 24px;
-    height: 24px;
+    fill: #f4f4fd;
 }
 
 .link-footer {
@@ -519,7 +520,7 @@ img {
 }
 
 .link-footer:hover,
-:focus {
+.link-footer:focus {
     background-color: var(--green);
 }
 
@@ -619,5 +620,5 @@ img {
 .employees-list {
     border: 1px solid var(--border);
     border-top: none;
-    padding: 32px 16px
+    padding: 32px 16px;
 }
