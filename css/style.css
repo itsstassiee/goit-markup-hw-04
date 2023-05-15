@@ -86,7 +86,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--text-color);
     text-align: center;
-
+    margin-bottom: 8px;
 }
 
 .text {
@@ -239,6 +239,8 @@ img {
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .page-btn {
@@ -248,7 +250,6 @@ img {
     cursor: pointer;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--white);
     font-family: 'Roboto', sans-serif;
@@ -266,16 +267,10 @@ img {
 }
 
 
-.page-btn:hover {
-    background: var(--btn);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-
+.page-btn:hover,
 .page-btn:focus {
-    background: var(--btn);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    background-color: var(--btn);
+
 }
 
 .header {
@@ -354,7 +349,6 @@ img {
 .social-link {
     width: 40px;
     height: 40px;
-    margin-top: 8px;
     display: block;
 }
 
@@ -559,7 +553,6 @@ img {
     color: #4D5AE5;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     font-family: "Roboto", sans-serif;
@@ -572,18 +565,10 @@ img {
 
 .botn:hover,
 .botn:focus {
-    background: var(--btn);
+    background-color: var(--btn);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 1.5;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
     color: var(--white);
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    border: 1px solid transparent;
+    border-color: transparent;
 }
 
 .section-portfolio {
